@@ -1,0 +1,21 @@
+{
+  "title": "Sortable Groceries",
+  "description": "Drag and sort each grocery items into their respective category.",
+  "categories": [
+    { "label": "Fruits", "name": "fruit", "list": [] },
+    { "label": "Vegetables", "name": "veggie", "list": [] },
+    { "label": "Meat", "name": "meat", "list": [] },
+    { "label": "Dairy", "name": "dairy", "list": [] }
+  ],
+  "items": [
+    { "name": "Tomato", "category": "fruit" },
+    { "name": "Milk", "category": "dairy" },
+    { "name": "Apple", "category": "fruit" },
+    { "name": "Cheese", "category": "dairy" },
+    { "name": "Banana", "category": "fruit" },
+    { "name": "Coriander", "category": "veggie" },
+    { "name": "Onion", "category": "veggie" },
+    { "name": "Yoghurt", "category": "dairy" },
+    { "name": "Chicken", "category": "meat" }
+  ]
+}

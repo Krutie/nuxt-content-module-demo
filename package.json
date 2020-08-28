@@ -1,0 +1,23 @@
+{
+  "name": "nuxt-content-module-demo",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "deploy": "rm -rf dist && nuxt generate && cd dist && surge ./ --domain https://nuxt-content-module-demo.surge.sh"
+  },
+  "dependencies": {
+    "@nuxt/content": "^1.7.0",
+    "gsap": "^3.5.0",
+    "nuxt": "^2.14.0",
+    "prism-themes": "^1.4.0",
+    "vue-awesome": "^4.1.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^2.1.0",
+    "nuxt-webfontloader": "^1.1.0"
+  }
+}
