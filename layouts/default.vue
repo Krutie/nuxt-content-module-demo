@@ -13,12 +13,20 @@
         </nuxt-link>
       </div>
       <div>
-        <nuxt-link to="#" class="pr-6">
+        <a
+          href="https://krutiepatel.com/blog/nuxt-content-module-demo-with-sortable-activity"
+          target="_blank"
+          class="pr-6 hover:text-red-400"
+        >
           <icon name="link" scale="1.5" />
-        </nuxt-link>
-        <nuxt-link to="#" class="pr-6">
+        </a>
+        <a
+          href="https://github.com/Krutie/nuxt-content-module-demo"
+          target="_blank"
+          class="pr-6 hover:text-red-400"
+        >
           <icon name="brands/github" scale="1.8" />
-        </nuxt-link>
+        </a>
       </div>
     </nav>
     <div
@@ -61,7 +69,7 @@ h2 {
   @apply text-2xl;
 }
 .title {
-  @apply text-3xl font-light pb-3 text-center;
+  @apply text-3xl font-light text-center;
 }
 .center-flex {
   @apply flex justify-center items-center text-center;

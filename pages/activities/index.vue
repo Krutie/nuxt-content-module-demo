@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1 class="title">Learning Activity</h1>
+    <h1 class="title">Learning Activities</h1>
     <div class="divide-y-2 divide-gray-500 divide-dashed">
       <div v-for="(activity, index) in activities" class="py-2">
         <nuxt-link :to="activity.path" class="text-xl">{{

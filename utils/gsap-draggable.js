@@ -13,12 +13,12 @@ export const reset = (el) => {
   tl.fromTo(
     el,
     {
-      left: el.offsetLeft - 10,
+      left: el.offsetLeft - 12,
     },
     {
-      left: el.offsetLeft + 10,
+      left: el.offsetLeft + 12,
       yoyo: true,
-      repeat: 3,
+      repeat: 5,
       duration: 0.15,
       ease: "sine.inOut",
     }
@@ -26,7 +26,6 @@ export const reset = (el) => {
     duration: 0.7,
     x: 0,
     y: 0,
-    scale: 1,
     ease: "sine",
   });
 };

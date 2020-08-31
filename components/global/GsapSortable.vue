@@ -77,7 +77,6 @@ export default {
     };
   },
   mounted() {
-    console.log("mounted");
     gsap.registerPlugin(Draggable);
 
     // to fix Safari glitch with transform3D

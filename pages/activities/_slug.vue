@@ -1,6 +1,6 @@
 <template>
   <div>
-    <header class="p-2">
+    <header class="p-2 text-center">
       <h1 class="title">{{ activity.title }}</h1>
       <p class="font-light text-gray-600">{{ activity.description }}</p>
     </header>
