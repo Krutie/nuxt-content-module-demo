@@ -75,7 +75,7 @@ h2 {
   @apply flex justify-center items-center text-center;
 }
 .card {
-  @apply rounded-lg border-2 text-xl tracking-wide;
+  @apply rounded-lg border-2 text-base tracking-wide;
   /*tracking-wide = letter-spacing: 0.025em*/
 }
 .draggable {
@@ -87,13 +87,13 @@ h2 {
 .draggable,
 .dropped {
   /*@apply h-40 w-40;*/
-  height: 9rem;
+  height: 7rem;
   width: 9rem;
   background: linear-gradient(45deg, #726296 0%, #d65965 100%);
 }
 .droppable {
   /*@apply h-40 w-40;*/
-  height: 9rem;
+  height: 7rem;
   width: 9rem;
   @apply text-base font-light;
   @apply flex justify-center items-center border-2 border-red-300 border-dashed bg-gray-100;

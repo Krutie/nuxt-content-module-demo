@@ -24,7 +24,7 @@
     </div>
 
     <!-- ACTIVITY -->
-    <div v-else class="flex justify-center mb-48">
+    <div v-else class="flex justify-center mb-40">
       <div
         v-for="(item, index) in items"
         :key="`item-${index}`"
@@ -79,13 +79,8 @@ export default {
   mounted() {
     gsap.registerPlugin(Draggable);
 
-    // to fix Safari glitch with transform3D
-    gsap.to(".draggable", { x: 0, y: 0, z: 0, force3D: true });
-
     const vm = this;
     Draggable.create(".draggable", {
-      edgeResistance: 0,
-      bounds: window,
       onDrag: function () {
         gsap.to(this.target, {
           duration: 1,
